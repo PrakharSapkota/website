@@ -1,0 +1,16 @@
+*{
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}

@@ -1,0 +1,39 @@
+*{
+    background-color: lightblue;
+}
+
+h1{
+    color: lightblue;
+    background-color: #161616;
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    border:5px solid lightblue;
+
+}
+
+h2 {
+    color: lightblue;
+    background-color: #161616;
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    border:5px solid lightblue;
+
+} 
+
+p{
+    color: blue;
+    display:flex;
+    padding: -30px;
+    justify-content: left;
+    border:5px solid lightblue;
+}
+
+img{
+    width:250px;
+    height:auto;
+    display: inline;
+    justify-content: left;
+    align-items: left;
+}    

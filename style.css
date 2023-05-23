@@ -1,0 +1,77 @@
+*{
+    color: #2b2839;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+   background: url("background.jpg") no-repeat;
+   min-height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-position: center;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.logo{
+    font-size:35px;
+    color:blue;
+    user-select: none;
+    ;
+}
+
+.navigation a{
+    position:relative;
+    font-size:20px;
+    color: burlywood;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:3px;
+    background:#fff;
+    border-radius: 5px;
+    transform:scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after {
+    transform:scaleX(1)
+}
+
+.navigation .btn-login{
+    width:100px;
+    cursor:pointer;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 45px;
+    transition:0.5s;
+}
+
+.navigation .btn-login:hover {
+    background: lightblue;
+    color: blue;
+}
+
