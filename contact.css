@@ -1,32 +1,38 @@
 *{
     background-color: lightblue;
+    background: url("abstract.jpg");
 }
 
-header {
-    display: inline;
-    text-align: center;
-}
 
 h1 {
-    color: lightblue;
-    background-color: #161616;
+    color:orange;
     display:flex;
     padding: 30px;
     justify-content: center;
-    border:5px solid lightblue;
+    /* border:5px solid lightblue; */
 }
 
 h2 {
-    color: lightblue;
+    color: orange;
     display:flex;
     justify-content: center;
     margin-top: -55px;
-    ;
+}
+
+h3{
+    color: red;
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -55px;
 }
 p{
-    color: blue;
-    display:flex;
-    padding: -30px;
+    color: burlywood;
+    font-size: 30px;
+    display:block;
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 50px;;
     justify-content: center;
-    border:5px solid lightblue;
+    border:3px solid lightblue;
 }
